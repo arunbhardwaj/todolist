@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\src"
+    "\\src",
+    "\\src\\components"
   ],
-  "SelectedNode": "\\src\\serviceWorker.js",
+  "SelectedNode": "\\src\\components\\TodoItem.js",
   "PreviewInSolutionExplorer": false
 }
