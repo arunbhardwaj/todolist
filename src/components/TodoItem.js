@@ -15,13 +15,14 @@ class TodoItem extends Component {
 
 // </* uses component drilling? */>
     render() {
-        // destructuring
+        // destructuring -- basically refactoring so code's easier to read and write
         const {id, title} = this.props.todo;
         return (
             <div style={this.getStyle()}>
                 <p>
                     <input type="checkbox" onChange={this.props.markComplete.bind(this, this.props.todo.id) } />
                     {this.props.todo.title}
+                    <button>x</button>
                 </p>
             </div>
             
