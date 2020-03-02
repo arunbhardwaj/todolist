@@ -13,20 +13,20 @@ class TodoItem extends Component {
         }
     }
 
-// </* uses component drilling? */>
+// {/* uses component drilling? */}
     render() {
-        // destructuring -- basically refactoring so code's easier to read and write
-        // const {id, title} = this.props.todo;
+        // destructuring
+        const {id, title} = this.props.todo;
         return (
             <div style={this.getStyle()}>
                 <p>
                     <input 
                         type="checkbox" 
-                        onChange={this.props.toggleComplete.bind(this, this.props.todo.id)} 
+                        onChange={this.props.toggleComplete.bind(this, id)} 
                     />
-                    {this.props.todo.title}
+                    {title}
                     <button 
-                        onClick={this.props.deleteTodo.bind(this, this.props.todo.id)} 
+                        onClick={this.props.deleteTodo.bind(this, id)} 
                         style={btnStyle}>
                             x
                     </button>
@@ -38,7 +38,9 @@ class TodoItem extends Component {
 }
 
 TodoItem.propTypes = {
-    todo: PropTypes.object.isRequired
+    todo: PropTypes.object.isRequired,
+    toggleComplete: PropTypes.func.isRequired,
+    deleteTodo: PropTypes.func.isRequired
 }
 
 // const itemStyle = {
