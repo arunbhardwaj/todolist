@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <header style={headerStyle}>
             <h1>To-Do List</h1>
-            <Link style={{ color: 'white'}} to="/">Home</Link> | <Link to="/about" style={{ color: 'white'}}>About</Link>
+            <Link style={{ color: 'white'}} to="https://www.arunbhardwaj.github.io/todolist/">Home</Link> | <Link to="https://www.arunbhardwaj.github.io/todolist/about" style={{ color: 'white'}}>About</Link>
         </header>
     )
 }
