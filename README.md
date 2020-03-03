@@ -1,4 +1,4 @@
-Go to [https://arunbhardwaj.github.io/todolist/](TodoList) to view it in the browser.
+Go to [https://arunbhardwaj.github.io/todolist/](https://arunbhardwaj.github.io/todolist/) to view it in the browser.
 
 ## Available Scripts
 
