@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Go to [https://arunbhardwaj.github.io/todolist/](TodoList) to view it in the browser.
 
 ## Available Scripts
 
